@@ -5,22 +5,30 @@ public class VariableTypes {
 // todo: https://programming.guide/java/primitives-vs-objects-references.html
 
 //todo:
-//      Peamised primitiivsed muutujad (prim. m. tüübid alati väikese tähega)
+//      Peamised primitiivsed muutujad (prim. m. tüübid algavad alati väikese tähega)
+//      Ei saa olla null (olematu) väärtusega
+
         int i = 17;                     // Integer (täisarv)
         double d = 5.99;                // Ujukomaarv; murdarv
-        char c = 'D';                   // Üksik täht
+        char c = 'D';                   // Üksik trükimärk (a-z, A-Z, 0-9, special characters @,$,€, jne)
         boolean b = true;               // Tõeväärtus (true or false)
+
+
 
 //todo:
 //      Java objektid: Stringid, Array, jne
-        String text = "Hello";
-        int[] array = new int[]{1, 3, 5, 7};
+        String myText = "Hello";
+        int[] myArray = new int[]{1, 3, 5, 7};
 
 //todo:
-//      Oma loodud objektid (klassid)
-        Person p = new Person();
-        p.setName("Mari");
-        p.setAge(36);
+//      Oma loodud klasside objektid
+        Student s = new Student();
+        s.setName("Mari");
+        s.setAge(36);
+        s.setClassGroup('A');
+        s.setGraduated(true);
+
+        System.out.println(s);
 
 //todo:
 //      primitiivide ja objektide mälu kasutus
