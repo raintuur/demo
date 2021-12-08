@@ -4,10 +4,10 @@ public class VariableTypesBoxed {
     public static void main(String[] args) {
 //todo:
 //              Igal primitiivsel tüübil Javas on olemas oma analoog klassina:
-//                  int -> Integer
-//                  double -> Double
-//                  char -> Character
-//                  boolean -> Boolean
+//                  int         -> Integer
+//                  double      -> Double
+//                  char        -> Character
+//                  boolean     -> Boolean
 
 
         Integer i = 17;         // Integer (täisarv)
@@ -24,7 +24,7 @@ public class VariableTypesBoxed {
 //          Javas on olukordi, kus ei saa kasutada primitiivseid muutuja tüüpe
 //          näiteks Map-ide ja List-ide kasutamisel.
 
-//            Map<int, double> map = new HashMap<>();
+//            Map<Integer, Double> map = new HashMap<>();
 //            List<int> singleton = new ArrayList<>();
 
 
