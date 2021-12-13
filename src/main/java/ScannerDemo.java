@@ -1,11 +1,10 @@
 import java.util.Scanner;
 
 public class ScannerDemo {
-// todo:https://www.w3schools.com/java/java_user_input.asp
+// todo: https://ained.ttu.ee/javadoc/input_output/input.html
 
 // todo:
 //      Skänneri abil saame konsoolist küsida mingeid väärtusi
-
 
     public static void main(String[] args) {
         Scanner inputScanner = new Scanner(System.in);
@@ -21,6 +20,5 @@ public class ScannerDemo {
 
         inputScanner.close();
     }
-
 
 }
