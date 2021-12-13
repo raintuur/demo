@@ -3,6 +3,19 @@ public class BookAuthor {
     private String middleName;
     private String lastName;
 
+    public BookAuthor() {
+    }
+
+    public BookAuthor(String firstName, String middleName, String lastName) {
+        this.firstName = firstName;
+        this.middleName = middleName;
+        this.lastName = lastName;
+    }
+
+    public BookAuthor(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 
     public String getFirstName() {
         return firstName;
