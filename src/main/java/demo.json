@@ -1,0 +1,20 @@
+{
+  "myFavouriteBooks": [
+    {
+      "title": "Clean Code",
+      "yearPublished": 2009,
+      "author": {
+        "firstName": "Robert",
+        "lastName": "Martin"
+      }
+    },
+    {
+      "title": "Sipsik",
+      "yearPublished": 1962,
+      "author": {
+        "firstName": "Eno",
+        "lastName": "Raud"
+      }
+    }
+  ]
+}

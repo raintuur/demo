@@ -42,11 +42,11 @@ public class BookAuthor {
     }
 
     public String getAuthorName() {
-        return firstName + " " + getMiddleNameInitial() + ". " + lastName;
+        return firstName + " " + getMiddleNameInitial() + lastName;
     }
 
     private String getMiddleNameInitial() {
-        return middleName.substring(0, 1);
+        return middleName != null ? middleName.substring(0, 1) + ". " : "";
     }
 
 

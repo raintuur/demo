@@ -1,0 +1,17 @@
+{
+  "name": "Rain",
+  "age": 37,
+  "weight": 95.5,
+  "hasDrivingLicence": false,
+  "someObject": null,
+  "vacationDays": [
+    {
+      "from": "2021-05-15",
+      "to": "2021-06-15"
+    },
+    {
+      "from": "2021-10-15",
+      "to": "2021-11-15"
+    }
+  ]
+}

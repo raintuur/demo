@@ -1,0 +1,21 @@
+*   json koosneb alati võti-väärtus (key, value) paaridest
+
+*   key nimed peavad alati olema "" jutumärkide vahel
+
+*   iga key/value paar eraldatakse : kooloniga
+
+*   iga key/value paari vahel käib koma
+
+*   value tüübid:
+    string, number, true, false, null, object, array,
+
+    + string - alati "" jutumärkide vahel
+    + (number, true, false, null) ei käi mingite märkide vahel
+    + objektid käivad alati {} loogeliste sulgude vahel
+    + arrayd käivad alati [] kandiliste sulgude vahel
+
+
+Harjutus!!!
+Loo json objekt võtmega "myFavouriteBooks",
+mille väli sisaldab massiivi (array) kahe raamatuga
+"Clean Code" ja "Sipsik" (koos autoritega)
