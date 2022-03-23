@@ -2,7 +2,10 @@ public class IfDemo {
 
 
     public static void main(String[] args) {
-        System.out.println();
+        //  todo:
+        //        if (condition) {
+        //            // block of code to be executed if the condition is true
+        //        }
 
         // todo: Java Comparison Operators
         //  ==	Equal to 	                x == y  (võrdne)
