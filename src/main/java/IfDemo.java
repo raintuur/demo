@@ -33,86 +33,39 @@ public class IfDemo {
 
 
         if (võrdneA == võrdneB) {
-
             x = võrdneA; y = võrdneB;
-            System.out.println("x: " + x + ", y: " + y + ", x == y (võrdne)");
-            System.out.println();
+            System.out.println("x: " + x + ", y: " + y + ", x == y (võrdne)\n");
         }
 
         if (väike == suur) {
-            System.out.println("rida 43");
+            System.out.println("rida 41 - konsooli ei prindi");
         }
 
 //-----------------------------------------------------------------------------------------
 //      !=	Not equal       x != y  (mitte võrdne)
 
 //todo:
-//      ! märk tähendab eitust (Inglise keeles negate)
+//      ! märk tähendab eitust (Inglise keeles negate/inversion)
 
         if (väike != suur) {
             x = väike;  y = suur;
-            System.out.println("x: " + x + ", y: " + y + ", x != y (mitte võrdne)");
-            System.out.println();
+            System.out.println("x: " + x + ", y: " + y + ", x != y (mitte võrdne)\n");
         }
 
         if (võrdneA != võrdneB) {
-            System.out.println("rida 59");
+            System.out.println("rida 56 - konsooli ei prindi");
         }
-
-//  todo:
-//      ! märgi (negate) kasutamise näited
-        boolean booleanState = true;
-        System.out.println(booleanState);
-
-        booleanState = !booleanState;
-        System.out.println(booleanState);
-
-        booleanState = !booleanState;
-        System.out.println(booleanState);
-        System.out.println();
-
-
-//  todo:
-//      eituse näide Raamatukogu näitel
-
-        String name = "Mari-Liis";
-        if (personHasReturnedAllBooks(name)) {
-            System.out.println("Mari-Liis on tagastanud kõiki raamatud. Ta on hea inimene");
-            System.out.println();
-        }
-
-        name = "Karu Kati";
-        if (!personHasReturnedAllBooks(name)) {
-            System.out.println("Karu Kati ei ole tagastanud kõiki raamatud. Ta on võlglane!!! :(");
-            System.out.println("Saadame Karu Katile meeldetuletuse, et tagastaks koheselt kõik raamatud:");
-            /// süsteem otsib välja kõik võlgu olevad raamatud
-            System.out.println("'Mõmmi aabits, '1000 retsepti - Mesi!', ....");
-            System.out.println();
-        }
-
-//        !personlsAdult(name)
-//        "!" eitusega kontrollitakse: person is NOT adult
-
-//        !personHasValidDrivingLicense(name)
-//        "!" eitusega kontrollitakse: person does NOT have valid driving license
-
-//        !personlsAllowedToVote(name)
-//        "!" eitusega kontrollitakse: person is NOT allowed to vote
-
-//        !orderContainsProductNumber(productNumber)
-//        "!" eitusega kontrollitakse: order does not NOT contain given product number
 
 //-----------------------------------------------------------------------------------------
 //      >	Greater than        x > y   (suurem)
 
         if (suur > väike) {
             x = suur;   y = väike;
-            System.out.println("x: " + x + ", y: " + y + ", x > y (suurem)");
-            System.out.println();
+            System.out.println("x: " + x + ", y: " + y + ", x > y (suurem)\n");
         }
 
         if (väike > suur) {
-            System.out.println("rida 115");
+            System.out.println("rida 103 - konsooli ei prindi");
         }
 
 //-----------------------------------------------------------------------------------------
@@ -120,12 +73,11 @@ public class IfDemo {
 
         if (väike < suur) {
             x = suur;   y = väike;
-            System.out.println("x: " + x + ", y: " + y + ", x < y (väiksem)");
-            System.out.println();
+            System.out.println("x: " + x + ", y: " + y + ", x < y (väiksem)\n");
         }
 
         if (suur < väike) {
-            System.out.println("rida 128");
+            System.out.println("rida 115 - konsooli ei prindi");
         }
 
 //-----------------------------------------------------------------------------------------
@@ -133,14 +85,12 @@ public class IfDemo {
 
         if (9 <= 10) {
             x = 9;  y = 10;
-            System.out.println("x: " + x + ", y: " + y + ", x <= y (väiksem või võrdne)");
-            System.out.println();
+            System.out.println("x: " + x + ", y: " + y + ", x <= y (väiksem või võrdne)\n");
         }
 
         if (10 <= 10) {
             x = 10; y = 10;
-            System.out.println("x: " + x + ", y: " + y + ", x <= y (väiksem või võrdne)");
-            System.out.println();
+            System.out.println("x: " + x + ", y: " + y + ", x <= y (väiksem või võrdne)\n");
         }
 
         if (20 <= 10) {
@@ -151,24 +101,8 @@ public class IfDemo {
         //  <=	Less than or equal to	    x <= y  (väiksem või võrdne)
 //todo:
 //          Sama nagu eelmine näide ainult arvud on vastupidised.
+
         System.out.println();
-    }
-
-    private static boolean personHasReturnedAllBooks(String personName) {
-        if (personName.equals("Mari-Liis")) {
-            // Süsteemis tehakse kontroll, et kas Mari-Liis on tagastanud kõik raamatud.
-            // Meie välja mõeldud näites on Mari-Liis kõik raamatud tagastanud.
-            // seega tagastatakse 'true' ehk personHasReturnedAllBooks
-            return true;
-        }
-
-        if (personName.equals("Karu Kati")) {
-            // süsteemis tehakse kontroll, et kas Karu Kati on tagastaunud kõik raamatud
-            // meie välja mõeldud näites on Karu Katil mõned raamatud tagastamata. Ta on võlglane.
-            // siis tagastatakse 'false' ehk personHasReturnedAllBooks
-            return false;
-        }
-        return true;
     }
 
 }
