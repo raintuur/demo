@@ -10,7 +10,7 @@ public class IfElseIf {
 //            // block of code to be executed if the condition1 is FALSE and condition2 is FALSE
 //        }
 
-        int x = 0;
+        int x = 300;
 
         System.out.println("\nNäide if else if'iga");
 
