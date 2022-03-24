@@ -21,117 +21,56 @@ public class IfAndOrDemo {
 //-----------------------------------------------------------------------------------------
 // todo:      &&  AND     (tõene ainult, kui mõlemad pooled on tõesed)
 
-        booleanState = võrdneA == võrdneB && väike < suur;
-
         if (võrdneA == võrdneB && väike < suur) {
             System.out.println("PEAB välja printima rida 25");
         }
 
-
-        booleanState = võrdneA == võrdneB && väike < suur && suur > väike;
-
         if (võrdneA == võrdneB && väike < suur && suur > väike) {
-            System.out.println("PEAB välja printima rida 32");
+            System.out.println("PEAB välja printima rida 29");
         }
-
-
-        booleanState = võrdneA == võrdneB && väike > suur && suur > väike;
 
         if (võrdneA == võrdneB && väike > suur && suur > väike) {
-            System.out.println("EI TOHI välja printida rida 39");
+            System.out.println("EI TOHI välja printida rida 33");
         }
-
 
         booleanState = true && false && true;
 
-        if (true && false && true) {
-            System.out.println("EI TOHI välja printida rida 46");
+        if (booleanState) {
+            System.out.println("EI TOHI välja printida rida 39");
         }
-
 
         booleanState = true;
 
         //  todo: üks varasemalt nähud viga (booleanState == true)
         if (booleanState) {
-            System.out.println("PEAB välja printima rida 54");
+            System.out.println("PEAB välja printima rida 46");
         }
-
 
         booleanState = false && false;
-
-        if (booleanState) {
-            System.out.println("EI TOHI välja printida rida 61");
-        }
-
 
 //-----------------------------------------------------------------------------------------
 // todo:     ||  OR      (tõene, kui vähemalt üks pooltest on tõene)
 
         booleanState = true || true;
 
-        if (booleanState) {
-            System.out.println("PEAB välja printima rida 71");
-        }
-
-
         booleanState = true || false;
-
-        if (booleanState) {
-            System.out.println("PEAB välja printima rida 78");
-        }
-
 
         booleanState = false || true;
 
-        if (booleanState) {
-            System.out.println("PEAB välja printima rida 85");
-        }
-
-
         booleanState = false || false;
 
-        if (booleanState) {
-            System.out.println("EI TOHI välja printida rida 92");
-        }
-
-
         booleanState = false || false || false || false || false || false || false || true || false;
-
-        if (booleanState) {
-            System.out.println("PEAB välja printima rida 99");
-        }
-
 
 //-----------------------------------------------------------------------------------------
 // todo:      && ja || kombineeritult
 
-
         booleanState = (true || false) && false;
-
-        if (booleanState) {
-            System.out.println("EI TOHI välja printida rida 110");
-        }
-
 
         booleanState = (true && false) || true;
 
-        if (booleanState) {
-            System.out.println("PEAB välja printima rida 117");
-        }
-
-
         booleanState = (true && false) || true || (true && false);
 
-        if (booleanState) {
-            System.out.println("PEAB välja printima rida 124");
-        }
-
-
         booleanState = (true && false) || true && (false || false);
-
-        if (booleanState) {
-            System.out.println("EI TOHI välja printida rida 131");
-        }
 
     }
 }
