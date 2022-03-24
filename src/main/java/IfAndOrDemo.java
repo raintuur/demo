@@ -1,8 +1,8 @@
 public class IfAndOrDemo {
     public static void main(String[] args) {
         // todo: Logical operators
-        //  && 	returns true if BOTH statements are true	        x < 5 &&  x < 10
-        //  || 	returns true if ONE of the statements is true	    x < 5 || x < 10
+        //  && 	returns true if BOTH statements are TRUE	        x < 5 &&  x < 10
+        //  || 	returns true if ONE of the statements is TRUE	    x < 5 || x < 10
         //  !	returns false if the result is true	                !(x < 5 && x < 10)
 
 
@@ -11,10 +11,10 @@ public class IfAndOrDemo {
         int suur = 20;
         int võrdneA = 1;
         int võrdneB = 1;
-        // todo: saab olla true või false
-        boolean booleanState = false;
-        System.out.println();
 
+        // todo: saab olla true või false
+        boolean booleanState;
+        System.out.println();
 
 //-----------------------------------------------------------------------------------------
 // todo:      &&    AND operator    returns true if BOTH statements are true
