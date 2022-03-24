@@ -1,9 +1,11 @@
+// TODO: https://ained.ttu.ee/javadoc/data_types/boolean-data-type.html#pohioperatsioonid
+
 public class IfAndOrDemo {
     public static void main(String[] args) {
         // todo: Logical operators
-        //  && 	returns true if BOTH statements are TRUE	        x < 5 &&  x < 10
-        //  || 	returns true if ONE of the statements is TRUE	    x < 5 || x < 10
-        //  !	returns false if the result is true	                !(x < 5 && x < 10)
+        //  &&  AND     (tõene ainult, kui mõlemad pooled on tõesed)    x < 5 &&  x < 10
+        //  ||  OR      (tõene, kui vähemalt üks pooltest on tõene)	    x < 5 || x < 10
+        //  !   NOT     (inversioon)                                    !(x < 5)
 
 
         //  kood peaks olema alati Inglise keeles
@@ -17,7 +19,7 @@ public class IfAndOrDemo {
         System.out.println();
 
 //-----------------------------------------------------------------------------------------
-// todo:      &&    AND operator    returns true if BOTH statements are true
+// todo:      &&  AND     (tõene ainult, kui mõlemad pooled on tõesed)
 
         booleanState = võrdneA == võrdneB && väike < suur;
 
@@ -63,7 +65,7 @@ public class IfAndOrDemo {
 
 
 //-----------------------------------------------------------------------------------------
-// todo:     ||	OR operator     returns true if ONE of the statements is true
+// todo:     ||  OR      (tõene, kui vähemalt üks pooltest on tõene)
 
         booleanState = true || true;
 
