@@ -7,9 +7,9 @@ public class MethodsDemo {
         String personName = "Mari-Liis";
         printGreeting(personName);
 
-        PrintToConsoleService printToConsoleService = new PrintToConsoleService();
-        printToConsoleService.printGreeting(personName);
-        printToConsoleService.printGreetingInEstonian(personName);
+        PrintToConsoleService consoleService = new PrintToConsoleService();
+        consoleService.printGreeting(personName);
+        consoleService.printGreetingInEstonian(personName);
 
         multiplyByTwo(2);
 
