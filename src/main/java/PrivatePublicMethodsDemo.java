@@ -1,4 +1,7 @@
-// TODO: https://ained.ttu.ee/javadoc/method/index.html#meetodi-ulesehitus
+// TODO:
+//  https://ained.ttu.ee/javadoc/method/index.html#meetodi-ulesehitus
+// access modifier −
+// defineerib nähtavuse ning selle kasutamine on valikuline (nt public).
 
 public class PrivatePublicMethodsDemo {
 
