@@ -11,5 +11,6 @@ public class ConstructorDemo {
         BookAuthor bookAuthor2 = new BookAuthor("Robert", "Cecil", "Martin");
 
         BookAuthor bookAuthor3 = new BookAuthor("Robert", "Martin");
+        System.out.println("Finito!");
     }
 }
