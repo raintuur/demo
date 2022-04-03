@@ -2,7 +2,7 @@
   "name": "Rain",
   "age": 37,
   "weight": 95.5,
-  "hasDrivingLicence": false,
+  "hasDrivingLicence": true,
   "someObject": null,
   "vacationDays": [
     {
